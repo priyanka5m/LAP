@@ -3,7 +3,7 @@
 int factorial(int n){
 	if(n<0)
 	{
-		return -1;
+		printf("Factorial of negative number is undefined\n");
 	}
     if(n!=1){
 	return(n * factorial(n-1));
